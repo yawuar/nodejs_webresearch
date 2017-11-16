@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Demo</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<ul>
+		<% for(var i = 0; i < users.length; i++) { %>
+			<li><%= users[i].firstname %></li>
+			<li><%= users[i].lastname %></li>
+			<li><%= users[i].address %></li>
+		<% } %>
+	</ul>
+	
+</body>
+</html>
