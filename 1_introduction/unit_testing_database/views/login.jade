@@ -1,0 +1,10 @@
+extends layout
+
+block content
+	h1= title
+	form(method='post')
+		div.form-group
+			input(name='username', class='input-block-level', placeholder='username')
+		div.form-group
+			input(name='password', class='input-block-level', type='password', placeholder='password')
+		input(type='submit', class='btn btn-success', value='Login')
